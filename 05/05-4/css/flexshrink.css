@@ -1,0 +1,35 @@
+section {
+	width:100%;
+	background:lightcyan;
+	display:flex;
+}
+section article {   
+	width: 400px;   
+	background:aqua;
+	border:1px solid #000;
+	box-sizing:border-box;
+	font-size:50px;
+	color:#fff;
+	display:flex;
+}
+section article:nth-of-type(1) {
+	flex-shrink:1;
+}
+section article:nth-of-type(2) {
+	flex-shrink:2;
+}
+section article:nth-of-type(3) {
+	flex-shrink:3;
+}
+
+/* 전체 너빗값의 비율 조절하기
+section article:nth-of-type(1) {
+	flex:1;
+}
+section article:nth-of-type(2) {
+	flex:2;
+}
+section article:nth-of-type(3) {
+	flex:3;
+}
+*/

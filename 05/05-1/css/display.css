@@ -1,0 +1,30 @@
+@charset "utf-8";
+
+* {
+	margin:0px;
+	padding:0px;
+}
+main {
+	width:100%;
+	height:100vh;
+	background:lightcyan;
+}
+section {
+	border:10px solid blue;
+}
+section article {
+	width:100px;
+	height:100px;   
+	background:aqua;
+	border:1px solid #000;
+}
+section {
+	border:10px solid blue;
+	display:flex;
+}
+/* 부모 요소인 section을 인라인 속성으로 바꾸기
+section {
+	border:10px solid blue;
+	display:inline-flex;
+}
+*/

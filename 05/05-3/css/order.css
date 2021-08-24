@@ -1,0 +1,33 @@
+@charset "utf-8";
+
+* {
+	margin:0px;
+	padding:0px;
+}
+section {
+	width:100%;
+	background:lightcyan;
+	display:flex;
+}
+section article {
+	width:100px;
+	height:100px;   
+	background:aqua;
+	border:1px solid #000;
+	font-size:50px;
+	color:#fff;
+	display:flex;
+	justify-content:center;
+	align-items:center;
+}
+
+/* 자식 요소의 순서 바꾸기*/
+section article:nth-of-type(1) {
+	order:2;
+}
+section article:nth-of-type(2) {
+	order:3;
+}
+section article:nth-of-type(3) {
+	order:1;
+}
