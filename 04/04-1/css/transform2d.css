@@ -1,0 +1,28 @@
+@charset "utf-8";
+
+/* 2d transform */
+section {
+	width: 200px;
+	height: 200px;
+	border: 1px solid #000;
+	float: left;
+	margin: 50px;
+}
+section article {
+	width: 100%;
+	height: 100%;
+	background: blue;
+	opacity: 0.3;
+}
+section:nth-of-type(1) article {
+	transform: scale(1.3);
+}
+section:nth-of-type(2) article {
+	transform: skewX(20deg);
+}
+section:nth-of-type(3) article {
+	transform: translateY(50px);
+}
+section:nth-of-type(4) article {
+	transform: rotate(45deg);
+}

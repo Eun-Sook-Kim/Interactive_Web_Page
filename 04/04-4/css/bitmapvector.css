@@ -1,0 +1,11 @@
+@charset "utf-8";
+
+img {
+	width:400px; margin:50px;
+}
+
+/* 비트맵, 벡터 이미지 확대하기
+img {
+	width:10000px; margin:50px;
+}
+*/

@@ -1,0 +1,20 @@
+@charset "utf-8";
+
+article {
+	width: 200px;
+	height: 200px;
+	background: pink;
+	margin: 100px auto;
+}
+
+@media screen and (max-width: 900px) {
+	article {
+		background: orange;
+	}
+}
+
+@media screen and (max-width:400px) {
+	article {
+			background:aqua;
+	}
+}
