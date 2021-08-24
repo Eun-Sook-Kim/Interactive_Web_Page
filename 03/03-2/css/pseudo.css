@@ -1,0 +1,19 @@
+@charset "utf-8";
+
+/* 가상 선택자 :hover 사용하기 */
+h1 {
+  border: 1px solid blue;
+}
+h1:hover {
+  border: 1px solid red;
+} 
+
+/* 가상 선택자 :before와 :after 사용하기
+h1:before{
+  content: "before content";
+  color: blue;
+}
+h1:after {
+  content: "after content";
+  color: red;
+} */

@@ -1,0 +1,19 @@
+@charset "utf-8";
+
+/* 테두리에 곡선 설정하기 */
+.box1 {
+  width: 200px;
+  height: 200px;
+  background-color: blue;
+  margin: 100px;
+  float: left;
+  border-radius: 30px;    
+}
+.box2 {
+  width: 200px;
+  height: 200px;
+  background-color: red;
+  margin: 100px;
+  float: left;
+  border-radius: 50%;    
+}

@@ -1,0 +1,21 @@
+@charset "utf-8";
+
+/* 안쪽 여백 설정하기 */
+article {
+	width: 100px;
+	height: 100px;
+	border: 1px solid red;
+}
+article:nth-of-type(1) {
+	padding: 0px;
+}
+article:nth-of-type(2) {
+	padding: 30px;
+}
+
+/* 기존 박스 크기 유지하면서 안쪽 여백 설정하기
+article:nth-of-type(2) {
+	padding: 30px;
+	width: 40px;
+	height: 40px;
+} */

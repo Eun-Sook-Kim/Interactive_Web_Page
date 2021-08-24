@@ -1,0 +1,13 @@
+@charset "utf-8";
+
+/* 블록 요소와 인라인 요소 태그 */
+p {
+	border: 1px solid red;
+   /* height: 100px;  블록 요소 크기 지정*/
+}
+strong, em {
+	border: 1px solid blue;
+   /* height: 50px; 인라인 요소 크기 지정*/
+   /* display: inline-block; 인라인과 블록 요소 모두 사용*/
+   /* display: block; /* 블록 요소로 강제 변환*/
+}

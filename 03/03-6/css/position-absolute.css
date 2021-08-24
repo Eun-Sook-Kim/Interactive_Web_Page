@@ -1,0 +1,56 @@
+@charset "utf-8";
+
+/* absolute로 특정 요소 위치를 변경하기 */
+.wrap {
+	width: 800px;
+	border: 5px solid black;
+	margin: 50px auto;
+}
+.wrap::after {
+	content: "";
+	display: block;
+	clear: both;
+}
+.wrap .left {
+	width: 400px;
+	height: 400px;
+	background-color: lightgreen;
+	float: left;
+}
+.wrap .right {
+	width: 400px;
+	height: 400px;
+	background-color: lightblue;
+	float: left;
+}
+.wrap .right .box {
+	width: 100px;
+	height: 100px;
+	background-color: red;
+}
+.wrap .bottom {
+	width: 800px;
+	height: 100px;
+	background-color: pink;
+	float: left;
+}
+/*
+빨간색 박스를 브라우저 오른쪽 아래에 배치하기
+.wrap .right .box {
+	width: 100px;
+	height: 100px;
+	background-color: red;
+	position: absolute;
+	right: 20px;
+	bottom: 30px;
+}
+
+빨간색 박스를 하늘색 박스 안에 배치하기
+.wrap .right {
+	width: 400px;
+	height: 400px;
+	background-color: lightblue;
+	float: left;
+	position: relative;
+}
+*/

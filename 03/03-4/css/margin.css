@@ -1,0 +1,44 @@
+@charset "utf-8";
+
+/* 바깥 여백 설정하기 */
+article {
+	width: 50px;
+	height: 30px;
+	border: 1px solid red;
+}
+/* 바깥쪽 여백을 사방으로 20px만큼 설정 */
+article:nth-of-type(1) {
+	margin: 20px;
+}
+/* 바깥쪽 여백을 상하는 20px 좌우는 50px만큼 설정 */
+article:nth-of-type(2) {
+	margin: 20px 50px;
+}
+/* 바깥쪽 여백을 상하는 20px 좌우는 무조건 중앙으로 설정 */
+article:nth-of-type(3) {
+	margin: 20px auto;
+}
+/* 바깥쪽 여백을 위쪽으로 20px, 좌우는 중앙, 아래쪽으로는 40px만큼 설정 */
+article:nth-of-type(4) {
+	margin: 20px auto 40px;
+}
+/* 바깥쪽 여백을 시계방향으로 각각 위쪽, 오른쪽, 아래쪽, 왼쪽으로 각각 설정 */
+article:nth-of-type(5) {
+	margin: 0px 10px 20px 30px;
+}
+/* 바깥쪽 여백을 왼쪽으로 20px만큼 설정 */
+article:nth-of-type(6) {
+	margin-left: 20px;
+}
+/* 바깥쪽 여백을 오른쪽으로 20px만큼 설정 */
+article:nth-of-type(7) {
+	margin-right: 20px;
+}
+/* 바깥쪽 여백을 위쪽으로 20px만큼 설정 */
+article:nth-of-type(8) {
+	margin-top: 20px;
+}
+/* 바깥쪽 여백을 아래쪽으로 20px만큼 설정 */
+article:nth-of-type(9) {
+	margin-bottom: 20px;
+}

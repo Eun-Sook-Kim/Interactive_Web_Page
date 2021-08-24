@@ -1,0 +1,15 @@
+@charset "utf-8";
+
+/* 순서 선택자 */
+ul li:nth-of-type(1) {
+  border : 1px solid red;
+}
+ul li:nth-of-type(2) {
+  border : 1px solid green;
+}
+ul li:nth-of-type(3) {
+  border : 1px solid blue;
+}
+ul li:nth-of-type(4) {
+  border : 1px solid violet;
+}

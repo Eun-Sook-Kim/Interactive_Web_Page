@@ -1,0 +1,47 @@
+@charset "utf-8";
+
+/* 겹쳐있는 요소에 z축 순서 지정하기 */
+.wrap {
+	width: 400px;
+	height: 400px;
+	border: 1px solid #000;
+	margin: 100px auto;
+	position: relative;
+}
+.wrap .left {
+	width: 200px;
+	height: 200px;
+	background-color: blue;
+	position: absolute;
+	top: 50px;
+	left: 50px;
+}
+.wrap .right {
+	width: 200px;
+	height: 200px;
+	background-color: red;
+	position: absolute;
+	bottom: 50px;
+	right: 50px;
+}
+
+/* z-index 속성을 사용해 순서 바꾸기 
+.wrap .left {
+	width: 200px;
+	height: 200px;
+	background-color: blue;
+	position: absolute;
+	top: 50px;
+	left: 50px;
+	z-index: 2;
+}
+.wrap .right {
+	width: 200px;
+	height: 200px;
+	background-color: red;
+	position: absolute;
+	bottom: 50px;
+	right: 50px;
+	z-index: 1;
+}
+*/

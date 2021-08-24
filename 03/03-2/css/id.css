@@ -1,0 +1,12 @@
+@charset "utf-8";
+
+/* 아이디 선택자 */
+#header {
+  border: 1px solid red;
+}
+#section {
+  border: 1px solid green;
+}
+#footer {
+  border: 1px solid violet;
+}

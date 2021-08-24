@@ -1,0 +1,27 @@
+@charset "utf-8";
+
+/* 요소에 투명도 설정하기 */
+.wrap {
+	width: 400px;
+	height: 400px;
+	border: 1px solid #000;
+	margin: 100px auto;
+	position: relative;
+}
+.wrap .left {
+	width: 200px;
+	height: 200px;
+	background-color: blue;
+	position: absolute;
+	top: 50px;
+	left: 50px;
+}
+.wrap .right {
+	width: 200px;
+	height: 200px;
+	background-color: red;
+	position: absolute;
+	bottom: 50px;
+	right: 50px;
+	opacity: 0.5;
+}

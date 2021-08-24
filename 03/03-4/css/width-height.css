@@ -1,0 +1,22 @@
+@charset "utf-8";
+
+/* 넓이와 높이 설정하기 */
+article {
+	border: 1px solid red;
+}
+article:nth-of-type(1) {
+	width: 100px;
+	height: 100px;
+}
+article:nth-of-type(2) {
+	width: 20%;
+	height: 20%;
+}
+article:nth-of-type(3) {
+	width: 10vw;
+	height: 10vw;
+}
+article:nth-of-type(4) {
+	width: 10vh;
+	height: 10vh;
+}

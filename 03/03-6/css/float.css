@@ -1,0 +1,27 @@
+@charset "utf-8";
+
+/* float을 이용한 블록요소 좌우로 배치하기 */
+.wrap {
+	width: 800px;
+	margin: 100px auto;
+	border: 5px solid black;
+}
+.wrap .left {
+	width: 400px;
+	height: 400px;
+	background-color: pink;
+/* float 속성 추가하기 */
+  float: left; 
+}
+.wrap .right {
+	width: 400px;
+	height: 400px;
+	background-color: lightblue;
+/* float 속성 추가하기 */
+  float: left; 
+}
+.wrap::after {
+	content: '';
+	display: block;
+	clear: both;
+}

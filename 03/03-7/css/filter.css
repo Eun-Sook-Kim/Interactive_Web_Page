@@ -1,0 +1,50 @@
+@charset "utf-8";
+
+/* 필터를 이용한 특수 효과 지정하기 */
+div {
+  width:650px; margin: 100px auto;
+  border:1px solid #ccc;
+  padding:10px;
+}
+div img {
+  width:200px;  margin:6px;
+}
+/* 수치값이 커질수록 blur 효과 증가 */
+div img:nth-of-type(2) {
+  filter:blur(3px);
+}
+
+/* 1보다 작아지면 어두워지고 커지면 밝아짐 */
+div img:nth-of-type(3) {
+  filter:brightness(0.5);
+}
+
+/* 100%작아지면 대비효과가 낮아지고 높아지면 대비증가 */
+div img:nth-of-type(4) {
+  filter:contrast(150%);
+}
+
+/* 100%로 근접할수록 흑백으로 전환 */
+div img:nth-of-type(5) {
+  filter:grayscale(100%);
+}
+
+/* 0deg는 원래 이미지 색상 0~360deg까지 변경할수록 색상 변경 */
+div img:nth-of-type(6) {
+  filter:hue-rotate(180deg);
+}
+
+/* 100%로 근접할 수록 색감이 정 반대로 전환 */
+div img:nth-of-type(7) {
+  filter:invert(100%);
+}
+
+/* 0으로 근접할 수록 색감의 채도가 낮아짐 */
+div img:nth-of-type(8) {
+  filter:saturate(0.5);
+}
+
+/* 100%로 근접할 수록 갈색톤으로 색감이 변경 */
+div img:nth-of-type(9) {
+  filter:sepia(100%);
+}

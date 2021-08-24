@@ -1,0 +1,18 @@
+@charset "utf-8";
+
+/* 글꼴 바꾸기 */
+ul li {
+	font-size: 40px;
+}
+ul li:nth-of-type(1) {
+	font-family: "돋움";
+}
+ul li:nth-of-type(2) {
+	font-family: "굴림";
+}
+ul li:nth-of-type(3) {
+	font-family: serif;
+}
+ul li:nth-of-type(4) {
+	font-family: arial;
+}

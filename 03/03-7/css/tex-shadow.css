@@ -1,0 +1,11 @@
+@charset "utf-8";
+
+/* 그림자 설정하기 */
+p {
+    font-weight:bold;
+    font-size:100px;
+    font-family:"arial";
+    color:#111;
+    margin:100px;
+    text-shadow:30px 30px 10px #aaa;
+}

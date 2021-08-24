@@ -1,0 +1,9 @@
+@charset "utf-8";
+
+/* 클래스 선택자 */
+p.text1 {
+  border: 1px solid blue;
+}
+.text2 {
+  border: 1px solid red;
+}

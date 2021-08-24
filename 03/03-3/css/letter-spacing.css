@@ -1,0 +1,12 @@
+@charset "utf-8";
+
+/* 글의 자간 설정하기 */
+li:nth-of-type(1) {
+	letter-spacing: 0px;
+}
+li:nth-of-type(2) {
+	letter-spacing: 2px;
+}
+li:nth-of-type(3) {
+	letter-spacing: -2px;
+}

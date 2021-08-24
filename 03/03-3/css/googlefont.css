@@ -1,0 +1,7 @@
+@charset "utf-8";
+@import url('https://fonts.googleapis.com/css2?family=Monoton&display=swap');
+
+p#txt {
+  font-size:100px;
+  font-family: 'Monoton', cursive;
+}

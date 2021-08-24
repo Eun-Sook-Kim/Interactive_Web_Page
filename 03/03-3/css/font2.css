@@ -1,0 +1,43 @@
+@charset "utf-8";
+
+/* 폰트 크기 바꾸기 - px */
+article h1 {
+	font-size: 60px;
+}
+article p {
+	font-size: 30px;
+}
+article a {
+	font-size: 15px;
+} 
+
+/* 폰트 크기 바꾸기 - rem 
+html {
+	font-size: 16px;
+}
+article h1 {
+	font-size: 3rem;
+}
+article p {
+	font-size: 1rem;
+}
+article a {
+	font-size: 0.8rem;
+} */
+
+/* 폰트 크기 바꾸기 - em 
+html {
+	font-size: 16px;
+}
+article {
+	font-size: 40px;
+}
+article h1 {
+	font-size: 3em;
+}
+article p {
+	font-size: 1em;
+}
+article a {
+	font-size: 0.8em;
+}  */

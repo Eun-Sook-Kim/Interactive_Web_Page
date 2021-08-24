@@ -1,0 +1,20 @@
+@charset "utf-8";
+
+/* 배경 색상 지정하기 */
+li { color:#000; }
+li:nth-of-type(1) { background-color:#000; }
+li:nth-of-type(2) { background-color:#111; }
+li:nth-of-type(3) { background-color:#222; }
+li:nth-of-type(4) { background-color:#333; }
+li:nth-of-type(5) { background-color:#444; }
+li:nth-of-type(6) { background-color:#555; }
+li:nth-of-type(7) { background-color:#666; }
+li:nth-of-type(8) { background-color:#777; }
+li:nth-of-type(9) { background-color:#888; }
+li:nth-of-type(10) { background-color:#999; }
+li:nth-of-type(11) { background-color:#aaa; }
+li:nth-of-type(12) { background-color:#bbb; }
+li:nth-of-type(13) { background-color:#ccc; }
+li:nth-of-type(14) { background-color:#ddd; }
+li:nth-of-type(15) { background-color:#eee; }
+li:nth-of-type(16) { background-color:#fff; }

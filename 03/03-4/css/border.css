@@ -1,0 +1,27 @@
+@charset "utf-8";
+
+/* 테두리 지정하기 */
+div {
+	width: 300px;
+	height: 200px;
+	margin: 50px;
+}
+div:nth-of-type(1) {
+	border-width: 1px;
+	border-style: solid;
+	border-color: red;
+}
+div:nth-of-type(2) {
+	border-width: 5px;
+	border-style: dashed;
+	border-color: green;
+}
+div:nth-of-type(3) {
+	border-width: 10px;
+	border-style: dotted;
+	border-color: blue;
+}
+/* 테두리 모양을 한꺼번에 지정하기  
+div:nth-of-type(1) {
+	border: 1px solid red;
+} */

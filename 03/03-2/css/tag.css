@@ -1,0 +1,12 @@
+@charset "utf-8";
+
+/* 태그 선택자 */
+h1 {
+    border: 1px solid red;
+}
+h2 {
+    border: 1px solid green;
+}
+h3 {
+    border: 1px solid blue;
+}
