@@ -1,0 +1,32 @@
+{
+    "editor.wordWrap": "on",
+    "editor.fontFamily": "d2coding,verdana",
+    "editor.mouseWheelZoom":true, 
+    "editor.lineNumbers":"on",
+    "editor.minimap.enabled":false,
+    "powermode.enabled": true,
+    "powermode.maxExplosions": 60,
+    "powermode.explosionSize": 16,
+    "editor.colorDecorators": true,
+    "editor.codeLens": false,
+    "powermode.backgroundMode": "image",
+    "powermode.enableShake": false,
+    "liveServer.settings.donotShowInfoMsg": true,
+    "workbench.iconTheme": "vscode-icons",
+    "vsicons.dontShowNewVersionMessage": true,
+    "liveServer.settings.CustomBrowser": "chrome",
+    "liveServer.settings.donotVerifyTags": true,
+    "fontAwesomeAutocomplete.triggerWord": "fa-",
+    "editor.tabSize": 4,
+    "prettier.tabWidth": 4,
+    "prettier.useTabs": true,
+    "[html]": {
+        "editor.defaultFormatter": "vscode.html-language-features"
+    },
+    "[javascript]": {
+        "editor.defaultFormatter": "vscode.typescript-language-features"
+    },
+    "[json]": {
+        "editor.defaultFormatter": "vscode.json-language-features"
+    }    
+}
