@@ -1,0 +1,9 @@
+@charset "utf-8";
+
+#box {
+  width: 300px;
+  height: 300px;
+  margin: 50px;
+  background: aqua;
+  transition: 0.5s;
+}

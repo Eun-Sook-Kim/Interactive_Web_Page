@@ -1,0 +1,50 @@
+@charset "utf-8";
+
+/* 버튼 비활성화 일때 */
+ul li {
+  color: gray;
+}
+/* 버튼 활성화 일떄 */
+ul li.on {
+  color: black;
+  cursor: pointer;
+}
+section {
+  width: 300px;
+  height: 200px;
+  border: 1px solid #888;
+  margin: 50px;
+  position: relative;
+  perspective: 600px; /*원근감 설정*/
+}
+/*박스 비활성화 일때*/
+section article {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  font-size: 50px;
+  opacity: 0;
+  transform: rotateY(-180deg);
+  transition: 0.5s;
+}
+/*박스 활성화 일때 */
+section article.on {
+  opacity: 1;
+  transform: rotateY(0deg);
+}
+/* 박스 순서별로 배경색 지정 */
+section article:nth-of-type(1) {
+  background: aqua;
+}
+section article:nth-of-type(2) {
+  background: hotpink;
+}
+section article:nth-of-type(3) {
+  background: orange;
+}

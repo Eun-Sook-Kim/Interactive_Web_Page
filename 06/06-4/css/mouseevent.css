@@ -1,0 +1,8 @@
+@charset "utf-8";
+
+#box {
+  width:200px;
+  height:200px;
+  background:aqua;
+  margin:100px auto;
+}
